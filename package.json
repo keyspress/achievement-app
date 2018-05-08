@@ -1,0 +1,7 @@
+{
+  "name": "achievement-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kyle Spresser <kylespresser@gmail.com>",
+  "license": "MIT"
+}
