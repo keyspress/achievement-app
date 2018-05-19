@@ -1,0 +1,8 @@
+body {
+  padding: 0;
+}
+
+.header-container {
+  background-color: rgba( 67, 47,117,1);
+  margin-top: 0 !important;
+}
