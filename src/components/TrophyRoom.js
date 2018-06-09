@@ -5,7 +5,8 @@ class TrophyRoom extends Component {
   render() {
     return (
       <div>
-        Trophy Room Content
+        <h1>Trophy Room Name</h1>
+        <p>Description of Trophy Room</p>
         <TrophyCase />
       </div>
     );

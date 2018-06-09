@@ -6,3 +6,7 @@ body {
   background-color: rgba( 67, 47,117,1);
   margin-top: 0 !important;
 }
+
+.header-content {
+  margin-top: 0px;
+}

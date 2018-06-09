@@ -3,7 +3,8 @@ import { Trophy } from './Trophy';
 
 export const TrophyCase = () => (
   <div>
-    <p>TrophyCase Content</p>
+    <h2>Trophy Case Name</h2>
+    <p>Description of Trophy Case</p>
     <Trophy />
   </div>
 );
