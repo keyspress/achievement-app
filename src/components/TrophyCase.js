@@ -7,5 +7,6 @@ export const TrophyCase = () => (
     <h2>Trophy Case Name</h2>
     <p>Description of Trophy Case</p>
     <Trophy />
+    <Trophy />
   </div>
 );
