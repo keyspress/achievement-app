@@ -6,6 +6,7 @@ body {
   background-color: rgba( 67, 47,117,1);
   margin: 0;
   padding: 10px;
+  text-align: center;
 }
 
 .header-content {
