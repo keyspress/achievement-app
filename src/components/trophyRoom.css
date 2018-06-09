@@ -1,0 +1,10 @@
+.trophy-room-container {
+  background-color: rgba(170,152, 57,1);
+  margin: 0;
+  height: 100%;
+  text-align: center
+}
+
+.trophy-room-header {
+  margin-top: 0;
+}

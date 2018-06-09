@@ -4,9 +4,11 @@ body {
 
 .header-container {
   background-color: rgba( 67, 47,117,1);
-  margin-top: 0;
+  margin: 0;
+  padding: 10px;
 }
 
 .header-content {
   margin-top: 0px;
+  margin-bottom: 0px;
 }
