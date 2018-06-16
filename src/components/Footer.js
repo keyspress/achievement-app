@@ -1,8 +1,9 @@
 import React from 'react';
-import './footer.css';
+
+import { pageFooterContainerStyles } from './styles/page-footer-style';
 
 export const Footer = () => (
-  <div className="footer-container">
+  <div style={pageFooterContainerStyles}>
     <p>© {new Date().getFullYear()} Kyle Spresser</p>
   </div>
 );
