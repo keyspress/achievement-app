@@ -6,4 +6,13 @@ export const pageHeaderContainerStyles = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center'
-}
+};
+
+export const pageHeaderIconStyles = {
+  paddingTop: '15px',
+  marginBottom: '15px'
+};
+
+export const pageHeaderSubheaderStyles = {
+  color: appColorWhite
+};
