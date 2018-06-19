@@ -5,7 +5,8 @@ export const pageHeaderContainerStyles = {
   color: appColorWhite,
   display: 'flex',
   flexDirection: 'column',
-  alignItems: 'center'
+  alignItems: 'center',
+  marginBottom: '0px'
 };
 
 export const pageHeaderIconStyles = {

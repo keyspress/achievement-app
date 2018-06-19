@@ -8,7 +8,7 @@ export const PageHeader = () => (
     <Icon name="trophy" style={pageHeaderIconStyles} />
     Achievement Board
     <Header.Subheader style={pageHeaderSubheaderStyles}>
-      See all that you've accomplished
+      Just look at all that you've accomplished
     </Header.Subheader>
   </Header>
 );
