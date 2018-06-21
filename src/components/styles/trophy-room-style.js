@@ -1,5 +1,7 @@
+import { appColorPrimary } from './theme';
+
 export const trophyRoomContainer = {
-  backgroundColor: 'rgba(170, 152, 57, 1)',
+  backgroundColor: appColorPrimary,
   paddingTop: '15vh',
   margin: '0px',
   height: '100%',

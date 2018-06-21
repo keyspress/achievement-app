@@ -1,8 +1,14 @@
-import { appColorBlack, appColorWhite } from './theme';
+import { 
+  // appColorWhite, 
+  appColorPrimaryDark, 
+  // appColorSecondary2Light, 
+  appColorComplement, 
+  appColorComplementLight 
+} from './theme';
 
 export const pageHeaderContainerStyles = {
-  backgroundColor: appColorBlack,
-  color: appColorWhite,
+  backgroundColor: appColorPrimaryDark,
+  color: appColorComplementLight,
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -13,10 +19,11 @@ export const pageHeaderContainerStyles = {
 };
 
 export const pageHeaderIconStyles = {
+  color: appColorComplement,
   paddingTop: '15px',
   marginBottom: '15px'
 };
 
 export const pageHeaderSubheaderStyles = {
-  color: appColorWhite
+  color: appColorComplementLight
 };
