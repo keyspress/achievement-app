@@ -1,5 +1,5 @@
 import { 
-  // appColorWhite, 
+  appColorWhite, 
   appColorPrimaryDark, 
   // appColorSecondary2Light, 
   appColorComplement, 
@@ -25,5 +25,5 @@ export const pageHeaderIconStyles = {
 };
 
 export const pageHeaderSubheaderStyles = {
-  color: appColorComplementLight
+  color: appColorWhite
 };

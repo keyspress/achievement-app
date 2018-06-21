@@ -1,7 +1,7 @@
-import { appColorBlack, appColorWhite } from './theme';
+import { appColorWhite, appColorPrimaryDark } from './theme';
 
 export const pageFooterContainerStyles = {
-  backgroundColor: appColorBlack,
+  backgroundColor: appColorPrimaryDark,
   position: 'fixed',
   left: '0px',
   bottom: '0px',
