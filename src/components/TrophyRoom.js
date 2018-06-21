@@ -1,14 +1,23 @@
 import React, { Component } from 'react';
 import { TrophyCase } from './TrophyCase';
-import './trophyRoom.css';
+import { TrophyCaseList } from './TrophyCaseList';
+import { trophyRoomContainer} from './styles/trophy-room-style';
 
 class TrophyRoom extends Component {
+
+
   render() {
+    const { view } = this.props;
+
     return (
-      <div className="trophy-room-container">
-        <h1 className="trophy-room-header">Trophy Room Name</h1>
+      <div style={trophyRoomContainer}>
+        <h1>Trophy Room Name</h1>
+        <ul>
+          <li>Add a Trophy Case</li>
+          <li>Edit or Remove a Trophy Case</li>
+        </ul>
         <p>Description of Trophy Room</p>
-        <TrophyCase />
+        {view === 'room' ? <TrophyCaseList /> : <TrophyCase />}
       </div>
     );
   };

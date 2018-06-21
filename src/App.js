@@ -5,11 +5,16 @@ import { Footer } from './components/Footer';
 import './App.css';
 
 class App extends Component {
+  state = {
+    user: '',
+    view: 'room'
+  }
+
   render() {
     return (
       <div className="App">
         <PageHeader />
-        <TrophyRoom />
+        <TrophyRoom view={this.state.view}/>
         <Footer />
       </div>
     );
